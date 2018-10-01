@@ -1,0 +1,11 @@
+.change-text {
+    font-family: "Courgette", cursive;
+}
+
+.change-image {
+    border-radius: 200px;
+}
+
+body {
+    background-image: url("./Times-Square.jpg");
+}
