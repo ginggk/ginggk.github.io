@@ -1,5 +1,7 @@
 .change-text {
     font-family: "Courgette", cursive;
+    color: white;
+    background-color: rgb(60, 66, 104);
 }
 
 .change-image {
@@ -8,4 +10,48 @@
 
 body {
     background-image: url("./Times-Square.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    /* min-width: 1024px; */
+}
+
+.see-through {
+    /* background-color: rgba(255, 255, 255, 0.5); */
+    opacity: 0.96;
+}
+
+.change-bottom-font {
+    font-family: "Fira Sans", sans-serif;
+}
+
+.change-bio-color {
+    color: white;
+    background-color: rgb(152, 109, 78);
+    opacity: 0.96;
+}
+
+.change-contact-color {
+    color: white;
+    background-color: rgb(152, 109, 78);
+    opacity: 0.96;
+}
+
+.change-text-color a {
+    color: white;
+    font-family: "Fira Sans", sans-serif;
+    text: 20px;
+}
+
+.navbar-brand.fancy-font {
+    font-family: "Pacifico", cursive;
+}
+/* font-family: "Josefin Sans", sans-serif; */
+
+.navbar-color {
+    background-color: rgb(152, 109, 78);
+}
+
+.color-white {
+    color: white;
 }

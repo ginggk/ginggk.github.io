@@ -5,23 +5,72 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Ginger's Portfolio</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <nav class="navbar navbar-expand-lg navbar-color change-text-color">
+        <a class="navbar-brand fancy-font" href="./index.html">Ginger Keys</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="./projects.html">Projects <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./favorites.html">Favorites</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
     <div class="container pt-4">
-        <div class="card text-center change-text pt-4">
+        <div class="card text-center change-text pt-4 pb-4 see-through">
             <div>
                 <img class="change-image" src="./ginger.png" width=300>
-                <div class="pt-3">
-                    <h1>Ginger B. Keys</h1>
+                <h1 class="pt-3 change-text">Ginger B. Keys</h1>
+                <p class="color-white font-italic text-center change-bottom-font">"With the chance I've
+                    been given-- I'm
+                    going to be driven
+                    as ever."
+                    -Legally Blonde the Musical</p>
+            </div>
+        </div>
+    </div>
+    <div class="d-flex">
+        <div class="container pt-4 col-7">
+            <div class="card change-bio-color">
+                <div class="card-header text-center">
+                    <h4 class="change-bottom-font">About Me</h4>
+                </div>
+                <br />
+                <div class="card-text pt-3 ">
+                    <p class="change-bottom-font">stuff about me</p>
                 </div>
             </div>
         </div>
+        <div class="container pt-4 col-4">
+            <div class="card change-contact-color">
+                <div class="card-header text-center">
+                    <h4 class="change-bottom-font">Contact Me</h4>
+                </div>
+                <br />
+                <div class="card-text pt-3 change-bottom-font">
+                    <p>contact me pls</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
     </div>
 
 
