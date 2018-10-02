@@ -60,3 +60,21 @@ body {
     color: white;
     text-decoration: none;
 }
+
+.main-body-color {
+    background-color: rgb(152, 109, 78);
+}
+
+.main-card-header-color {
+    background-color: rgb(60, 66, 104);
+}
+
+.background-fill-light {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.link-image {
+    height: 18rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
