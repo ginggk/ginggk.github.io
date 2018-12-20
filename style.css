@@ -9,7 +9,7 @@
 }
 
 body {
-    background-image: url("./Times-Square.jpg");
+    background-image: url("./images/background.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100vh;
@@ -27,13 +27,13 @@ body {
 
 .change-bio-color {
     color: white;
-    background-color: rgb(152, 109, 78);
+    background-color: rgb(60, 66, 104);
     opacity: 0.96;
 }
 
 .change-contact-color {
     color: white;
-    background-color: rgb(152, 109, 78);
+    background-color: rgb(60, 66, 104);
     opacity: 0.96;
 }
 
@@ -46,10 +46,11 @@ body {
 .navbar-brand.fancy-font {
     font-family: "Pacifico", cursive;
 }
+
 /* font-family: "Josefin Sans", sans-serif; */
 
 .navbar-color {
-    background-color: rgb(152, 109, 78);
+    background-color: rgb(60, 66, 104);
 }
 
 .color-white {
@@ -62,7 +63,7 @@ body {
 }
 
 .main-body-color {
-    background-color: rgb(152, 109, 78);
+    background-color: rgb(60, 66, 104);
 }
 
 .main-card-header-color {
