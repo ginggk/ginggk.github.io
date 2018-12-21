@@ -79,3 +79,45 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.icon-size {
+    width: 35px;
+}
+
+.button-color {
+    color: white;
+}
+
+/* .show-flex {
+    display: flex;
+} */
+
+/* .bio-columns {
+    columns: 7;
+} */
+
+.contact-col {
+    width: 23rem;
+}
+
+.bio-columns {
+    width: 20rem;
+}
+
+@media screen and (min-width: 900px) {
+    .show-flex {
+        display: flex;
+    }
+
+    .bio-columns {
+        width: 55rem;
+    }
+
+    .contact-col {
+        width: 40rem;
+    }
+
+
+
+
+}
