@@ -104,6 +104,18 @@ body {
     width: 20rem;
 }
 
+.footer {
+    background-color: rgb(60, 66, 104);
+    margin-bottom: 2rem;
+    text-align: center;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+.footer-image {
+    width: 40px;
+}
+
 @media screen and (min-width: 900px) {
     .show-flex {
         display: flex;
