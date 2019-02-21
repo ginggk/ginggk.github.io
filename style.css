@@ -117,6 +117,17 @@ body {
         width: 40rem;
     }
 
+    .footer {
+        background-color: rgb(60, 66, 104);
+        margin-bottom: 2rem;
+        text-align: center;
+        padding-bottom: 1rem;
+        padding-top: 1rem;
+    }
+
+    .footer-image {
+        width: 40px;
+    }
 
 
 
